@@ -7,4 +7,10 @@ mat-toolbar {
   z-index: 1;
   background: rgba(0, 0, 0, 0.3);
   color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-wrapper {
+  min-height: calc(100vh - 5rem); // Substract footer
 }

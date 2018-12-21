@@ -7,6 +7,10 @@ const routes: Routes = [
         path: '',
         component: HomeComponent
     },
+    {
+        path: 'projects',
+        loadChildren: './projects/projects.module#ProjectsModule'
+    },
     {path: '**', redirectTo: '/', pathMatch: 'full'}
 ];
 

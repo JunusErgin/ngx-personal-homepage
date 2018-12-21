@@ -1,23 +1,28 @@
 <mat-sidenav-container class="example-container">
-  
-  <mat-sidenav #sidenav
-               mode="side">
-    <app-sidemenu></app-sidemenu>
-  </mat-sidenav>
-  
-  <mat-sidenav-content>
-    <mat-toolbar>
-      <button (click)="sidenav.toggle()" mat-icon-button>
-        <mat-icon>menu</mat-icon>
-      </button>
-      
-      My App
-    </mat-toolbar>
-    
-    <router-outlet></router-outlet>
-    
-    <app-footer></app-footer>
-  </mat-sidenav-content>
+
+    <mat-sidenav #sidenav
+                 mode="side">
+        <app-sidemenu></app-sidemenu>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+        <mat-toolbar>
+            <div>
+                <button (click)="sidenav.toggle()" mat-icon-button>
+                    <mat-icon>menu</mat-icon>
+                </button>
+                <a routerLink="/">junusergin.de</a>
+            </div>
+            <div>
+                <app-main-menu></app-main-menu>
+            </div>
+        </mat-toolbar>
+
+        <div class="content-wrapper">
+            <router-outlet></router-outlet>
+        </div>
+        <app-footer></app-footer>
+    </mat-sidenav-content>
 </mat-sidenav-container>
 
 

@@ -1,9 +1,19 @@
-mat-card {
-  max-width: 400px;
+.project-list-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+
+
+  mat-card {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    max-width: 400px;
+    min-width: 25rem;
+  }
 }
 
 .mat-card-header-image {
-  //background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
   background-size: cover !important;
 }
 
@@ -14,7 +24,6 @@ mat-card {
 
 .project-preview {
   min-width: 25rem;
-  justify-content: center;
   justify-content: center;
   img {
     width: 20rem;

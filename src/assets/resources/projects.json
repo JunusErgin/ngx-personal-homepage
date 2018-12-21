@@ -1,0 +1,62 @@
+[
+  {
+    "packageId": "",
+    "logo": "angular.png",
+    "name": "junusergin.de",
+    "release": "December 2018",
+    "year": "2018",
+    "image": "/assets/img/landing.jpg",
+    "description_short": "Contact details, curriculum vitae and previous projects of me.",
+    "description_long": "",
+    "technologies": [
+      "Angular 7",
+      "TypeScript",
+      "Material Design"
+    ]
+  },
+  {
+    "packageId": "",
+    "logo": "ionic.jpg",
+    "name": "DreamRecorder",
+    "release": "November 2018",
+    "year": "2018",
+    "image": "/assets/img/projects/dreamrecorder.png",
+    "description_short": "Mit dieser App kannst du aufnehmen, was du im Traum sprichst. Sobald du anfängst im Schlaf zu reden, kann die App den Ton aufzeichnen. Am nächsten Morgen können die Aufnahmen wiedergegeben werden.",
+    "description_long": "",
+    "technologies": [
+      "Ionic 3",
+      "Angular 6",
+      "TypeScript"
+    ]
+  },
+  {
+    "packageId": "",
+    "logo": "ionic.jpg",
+    "name": "Lucid Dream Trainer",
+    "release": "March 2017",
+    "year": "2017",
+    "image": "/assets/img/projects/default_placeholder.jpg",
+    "description_short": "A simple app that teaches you to learn lucid dreaming.",
+    "description_long": "",
+    "technologies": [
+      "Ionic 2",
+      "Angular 4",
+      "TypeScript"
+    ]
+  },
+  {
+    "packageId": "",
+    "logo": "ionic.jpg",
+    "name": "Arbeitszeiterfassung",
+    "release": "December 2016",
+    "year": "2016",
+    "image": "/assets/img/projects/default_placeholder.jpg",
+    "description_short": "An App for tracking working hours. Even if this app is very simple, it's quite popular at the play store.",
+    "description_long": "",
+    "technologies": [
+      "Ionic 2",
+      "Angular 2",
+      "TypeScript"
+    ]
+  }
+]

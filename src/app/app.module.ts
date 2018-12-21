@@ -9,6 +9,7 @@ import { SidemenuComponent } from './sidemenu/sidemenu.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainMenuComponent } from './main-menu/main-menu.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
     declarations: [
@@ -22,6 +23,7 @@ import { MainMenuComponent } from './main-menu/main-menu.component';
         BrowserModule,
         AppRoutingModule,
         BrowserAnimationsModule,
+        HttpClientModule,
         MatToolbarModule,
         MatSidenavModule,
         MatIconModule,

@@ -6,17 +6,7 @@
     </mat-sidenav>
 
     <mat-sidenav-content>
-        <mat-toolbar>
-            <div>
-                <button (click)="sidenav.toggle()" mat-icon-button>
-                    <mat-icon>menu</mat-icon>
-                </button>
-                <a routerLink="/">junusergin.de</a>
-            </div>
-            <div>
-                <app-main-menu></app-main-menu>
-            </div>
-        </mat-toolbar>
+        <app-toolbar [sidenav]="sidenav"></app-toolbar>
 
         <div class="content-wrapper">
             <router-outlet></router-outlet>

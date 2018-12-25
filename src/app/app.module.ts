@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainMenuComponent } from './main-menu/main-menu.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ToolbarComponent } from './toolbar/toolbar.component';
 
 @NgModule({
     declarations: [
@@ -17,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
         SidemenuComponent,
         HomeComponent,
         FooterComponent,
-        MainMenuComponent
+        MainMenuComponent,
+        ToolbarComponent
     ],
     imports: [
         BrowserModule,

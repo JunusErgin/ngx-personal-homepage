@@ -1,6 +1,6 @@
 [
   {
-    "packageId": "",
+    "packageId": "de.junusergin",
     "logo": "angular.png",
     "name": "junusergin.de",
     "release": "December 2018",
@@ -15,7 +15,7 @@
     ]
   },
   {
-    "packageId": "",
+    "packageId": "de.junusergin.dreamrecorder",
     "logo": "ionic.jpg",
     "name": "DreamRecorder",
     "release": "November 2018",
@@ -30,12 +30,12 @@
     ]
   },
   {
-    "packageId": "",
+    "packageId": "de.junusergin.luciddreamtrainer",
     "logo": "ionic.jpg",
     "name": "Lucid Dream Trainer",
     "release": "March 2017",
     "year": "2017",
-    "image": "/assets/img/projects/default_placeholder.jpg",
+    "image": "/assets/img/projects/dream.jpg",
     "description_short": "A simple app that teaches you to learn lucid dreaming.",
     "description_long": "",
     "technologies": [
@@ -45,7 +45,7 @@
     ]
   },
   {
-    "packageId": "",
+    "packageId": "com.ionicframework.cutepuppypics703088",
     "logo": "ionic.jpg",
     "name": "Arbeitszeiterfassung",
     "release": "December 2016",

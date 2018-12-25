@@ -1,5 +1,7 @@
 .headline-home-page {
+  font-weight: 100;
   font-size: 7rem;
+  text-align: center;
 }
 
 .home-container {
@@ -14,8 +16,8 @@
   position: absolute;
   min-height: 100vh;
   min-width: 100vw;
-  background: url('/assets/img/landing.jpg') no-repeat center center;
-  background-size: cover;
+  //background: url('/assets/img/landing.jpg') no-repeat center center;
+  background-size: cover !important;
   filter: brightness(0.7);
 }
 

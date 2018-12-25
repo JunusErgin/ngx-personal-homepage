@@ -1,7 +1,8 @@
 <div class="home-container">
-    <div class="home-container-image"></div>
+    <div class="home-container-image"
+         [ngStyle]="{'background': 'url('+   meta.landingPageBackgroundImage + ') no-repeat center center'}"></div>
     <div class="home-container-content">
-        <h1 class="headline-home-page">Junus Ergin</h1>
-        <h2>WebApps. Hybrid Apps. PWAs.</h2>
+        <h1 class="headline-home-page">{{ meta.title }}</h1>
+        <h2>{{ meta.subtitle }}</h2>
     </div>
 </div>

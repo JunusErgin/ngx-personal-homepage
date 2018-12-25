@@ -1,0 +1,11 @@
+<mat-toolbar>
+    <div>
+        <button (click)="sidenav.toggle()" mat-icon-button>
+            <mat-icon>menu</mat-icon>
+        </button>
+        <a routerLink="/">{{ meta.title }}</a>
+    </div>
+    <div>
+        <app-main-menu></app-main-menu>
+    </div>
+</mat-toolbar>

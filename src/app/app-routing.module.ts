@@ -10,6 +10,9 @@ const routes: Routes = [
     {
         path: 'projects',
         loadChildren: './projects/projects.module#ProjectsModule'
+    }, {
+        path: 'legal-notice',
+        loadChildren: './legal-notice/legal-notice.module#LegalNoticeModule'
     },
     {path: '**', redirectTo: '/', pathMatch: 'full'}
 ];

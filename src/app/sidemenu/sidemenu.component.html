@@ -1,7 +1,23 @@
 <mat-nav-list>
-  <mat-list-item [routerLink]="['/']"
-                 routerLinkActive="color-primary color-background-gray">
-    <mat-icon>home</mat-icon>
-    Home
-  </mat-list-item>
+    <mat-list-item (click)="open('/')"
+                   routerLinkActive="color-primary color-background-gray">
+        <mat-icon>home</mat-icon>
+        Home
+    </mat-list-item>
+
+
+    <mat-list-item (click)="open('curriculum-vitae')"
+                   routerLinkActive="color-primary color-background-gray">
+        <mat-icon>assignment</mat-icon>
+        Curriculum vitae
+    </mat-list-item>
+
+
+    <mat-list-item (click)="open('projects')"
+                   routerLinkActive="color-primary color-background-gray">
+        <mat-icon>apps</mat-icon>
+        Projects
+    </mat-list-item>
+
+
 </mat-nav-list>

@@ -1,0 +1,21 @@
+.sub-footer {
+  background-color: var(--footer-color-second);
+  min-height: 10rem;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.widget {
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+  div {
+    display: flex;
+    align-items: center;
+    mat-icon {
+      margin-right: 0.5rem;
+    }
+  }
+}

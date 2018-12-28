@@ -1,8 +1,8 @@
-<mat-sidenav-container class="example-container">
+<mat-sidenav-container [hasBackdrop]="true" class="example-container">
 
     <mat-sidenav #sidenav
                  mode="side">
-        <app-sidemenu></app-sidemenu>
+        <app-sidemenu [sidenav]="sidenav"></app-sidemenu>
     </mat-sidenav>
 
     <mat-sidenav-content>
@@ -11,6 +11,7 @@
         <div class="content-wrapper">
             <router-outlet></router-outlet>
         </div>
+        <app-sub-footer></app-sub-footer>
         <app-footer></app-footer>
     </mat-sidenav-content>
 </mat-sidenav-container>

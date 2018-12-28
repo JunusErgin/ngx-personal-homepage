@@ -1,0 +1,31 @@
+<div class="sub-footer mobile-flex-direction-column">
+
+    <div class="widget mobile-align-items-center mobile-text-center">
+        <h3>Address</h3>
+        <div>
+            {{ meta.address1 }} <br>
+            {{ meta.address2 }}<br>
+            {{ meta.country }}
+        </div>
+    </div>
+
+    <div class="widget mobile-align-items-center mobile-text-center">
+        <h3>Contact</h3>
+
+        <div>
+            <mat-icon>phone</mat-icon>
+            {{ meta.telephone }}
+        </div>
+        <div>
+            <mat-icon>mail</mat-icon>
+            {{ meta.email }}
+        </div>
+    </div>
+
+    <div class="widget mobile-align-items-center mobile-text-center">
+        <h3>More</h3>
+        <a routerLink="data-protection">Data protection</a>
+        <a routerLink="legal-notice">Legal notice</a>
+    </div>
+
+</div>

@@ -1,6 +1,10 @@
+@import './assets/style/material-icons';
+
 /* You can add global styles to this file, and also import other style files */
 html, body {
   height: 100%;
+  --footer-color: #3e4246;
+  --footer-color-second: #5c6165;
 }
 
 body {
@@ -21,4 +25,18 @@ a {
 .content-container {
   padding: 1rem;
   padding-top: 5rem;
+}
+
+@media screen and (max-width: 480px) {
+  .mobile-flex-direction-column {
+    flex-direction: column;
+  }
+
+  .mobile-text-center {
+    text-align: center;
+  }
+
+  .mobile-align-items-center {
+    align-items: center;
+  }
 }
